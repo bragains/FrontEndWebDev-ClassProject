@@ -2,9 +2,9 @@
 
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
-  <title>Louie's Pizza - 271 Clay St. Louiville, KY</title>
+  <title>Louie's Pizza | World's Favorite Pizza</title>
 
-  <meta name="description" content="Louie&#39;s Pizza Website">
+  <meta name="description" content="Louie's Pizza Website">
   <meta name="author" content="Don Hansen/Ernesto Ramos/Code Louiville">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,9 @@
 
   <!-- Insert Google Fonts Here -->
   <link rel="stylesheet" href="css/fonts.css" />
+
+   <!-- Insert Flexbox CSS Here -->
+  <link rel="stylesheet" href="css/flexbox.css" />
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -76,7 +79,7 @@
       <div class="section group">
         <div class="col span_2_of_2">
           <h2>Welcome to <span class="red">Louie's</span></h2>
-          <p>Enjoy the old-school ambiance, original wooden booths sentimentally etched by our loyal customers, the black and white art deco floors worn by time, turn of the century tin ceilings and faded murals tell tale of a bygone era. Sit back, relax, enjoy the smell of simmering tomatoes and hot pizza, feel the warmth and camaraderie, hear the laughter and conversation of happy diners and you feel like you are home again, somewhere familliar, comfortable, affordable, family centered and “ORIGINAL”.</p>
+          <p>Enjoy the old-school ambiance, original wooden booths sentimentally etched by our loyal customers, the black and white art deco floors worn by time, turn of the century tin ceilings and faded murals tell tale of a bygone era. Sit back, relax, enjoy the smell of simmering tomatoes and hot pizza, feel the warmth and camaraderie, hear the laughter and conversation of happy diners and you feel like you are home again, somewhere familiar, comfortable, affordable, family centered and “ORIGINAL”.</p>
         </div>
       </div>
     </div>
@@ -110,7 +113,19 @@
 <!-- HISTORY -->
 
   <section id="history" class="history" name="history">
+    <div class="wrap">
+      <div class="section group">
+        <div class="col span_1_of_2">
+        <h2>Louie's History</h2>
+          <p>Louie’s was founded in 1929 by Italian immigrant Louie Bianchi. Louie’s was originally established on Main Street, in the Heart of Louisville. After losing his lease on Main Street, Louie Bianchi dismantled his original coal-fired brick oven and moved it to 271 Clay Street where he continued to run and grow his business and refine his pizza recipe to perfection.</p> 
 
+          <p>Bianchi ran his business until 1954 when he sold the pizzeria to the Romano Brothers. Augustine Romano bought the business from his brothers and he continued to own and operate Louie’s pizzeria until he passed away in 1984, passing his legacy on.</p>
+          </div>
+        <div class="col span_1_of_2">
+          <img src="img/louie-photo.png" alt="Louie's Photo"> 
+      </div> 
+    </div>       
+  </div>
   </section>
 
 <!-- HISTORY -->
@@ -118,8 +133,42 @@
 <!-- MENU -->
 
 <section id="menu" class="menu" name="menu">
+  <div class="wrap">
+    <div class="section group">
+      <h2><span class="red">Louie's</span> Menu</h2>
+       <p>The "Hallmarks" of Louie's of Clay St. are the coal-fired brick ovens that churn  out hundreds of crispy pizzas daily. It's a different world than it was in 1929, but we are still making the same traditional coal-fired pizza in the oven that started it all back on Main Street.</p> 
+    </div>
+    
+  
+    <div id="foodcontainer">
+      <!--Food Menu should go here -->  
+    </div>
+<!-- MENU -->
 
-</section>
+       <!-- Menu Table -->  
+<h3>Specialty Pizzas</h3>
+ <div class="row">      
+  <div class="primary col">
+     <img src="img/bbq-chicken.png">
+     <h4>BBQ Chicken</h4>
+     <p>Tender chicken marinated in a zesty BBQ sauce, topped with red onions, mozzerella and asiago cheeses.</p>
+     </div>
+
+     <div class="secondary col">
+     <img src="img/fire-roasted.png">
+     <h4>Fire Roasted Fajita</h4>
+     <p>Chipotle sauce topped with your choice of grilled chicken or steak. Fire roasted bell peppers and onions.</p>
+     </div>
+
+     <div class="tertiary col">
+     <img src="img/louies-pie.png">
+     <h4>Louie's Lunch</h4>
+     <p> Topped with whatever Louie feels like eating for dinner. Changes daily and don't ask before 11am.</p>
+     </div>
+    
+    </div>  
+  </div>
+</section>  
 
 <!-- MENU -->
 
@@ -148,7 +197,16 @@
 <!-- MAP -->
 
 <footer>
+<div class="wrap">
+<p class="col span_1_of_2">&copy; Copyright 2016 Louie's Pizza</p>
+<p id="what" class="col span_1_of_2">
+<a href="#">Privacy Policy |</a>
+<a href="#">Terms of Use</a></p>
 </footer>
+
+<!--Include JavaScript Here -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
 </html>

@@ -202,6 +202,22 @@ nav a:hover {
   clear: both;
 }
 
+#history{
+  background-image: url('../img/louies-bg-making-red.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#history p, #history h2 {
+  color: #e0e0De;
+}
+
+.red{
+  color: #871719;
+}
+
 /* ==========================================================================
    GRID SYSTEM
    ========================================================================== */
@@ -224,13 +240,12 @@ nav a:hover {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-.span_1_of_2 {
+.span_1_of_2{
   width: 48.2%;
 }
 .span_2_of_2{
   width: 100%;
 }
-
 
 /* ==========================================================================
   Buttons
@@ -341,3 +356,68 @@ input.button:hover {
 .nwsltr {
   background-color: #E8D5B5;
 }
+
+/* ==========================================================================
+   MENU
+   ========================================================================== */
+
+#menu h3 {
+  text-align: center;
+  color: #871719
+}
+
+.menu-head {
+  text-align: left;
+}
+
+.menu {
+  width: 100%;
+  padding: 0 1em 0 0;
+}
+
+.menu-price {
+    color: #871719;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: right;
+}
+
+.red {
+  color: #871719;
+}
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+  background-color: #262626;
+  height: 130px;
+}
+
+footer p {
+  color: white;
+  font-size: 80%;
+  margin-bottom: 65px;
+}
+
+footer a:hover {
+  color: red;
+}
+
+p#what {
+  text-align: right;
+}
+
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+
+
+
+
+
